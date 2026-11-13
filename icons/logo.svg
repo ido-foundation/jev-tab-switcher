@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7C4DFF"/>
+      <stop offset="1" stop-color="#18C8F0"/>
+    </linearGradient>
+    <linearGradient id="spark" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7C4DFF"/>
+      <stop offset="1" stop-color="#22B4F0"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="url(#bg)"/>
+
+  <!-- tab strip: two other tabs (faded) and the chosen one (solid) -->
+  <path fill="#fff" opacity="0.4" d="M18 54 L22 40 Q23 36 27 36 H40 Q44 36 45 40 L49 54 Z"/>
+  <path fill="#fff" opacity="0.4" d="M79 54 L83 40 Q84 36 88 36 H101 Q105 36 106 40 L110 54 Z"/>
+  <path fill="#fff" d="M46 54 L50 40 Q51 36 55 36 H73 Q77 36 78 40 L82 54 Z"/>
+
+  <!-- page of the chosen tab -->
+  <path fill="#fff" d="M18 54 H110 V96 Q110 104 102 104 H26 Q18 104 18 96 Z"/>
+
+  <!-- decision spark -->
+  <path fill="url(#spark)" d="M64 63 C66.3 74.5 68.5 76.7 80 79 C68.5 81.3 66.3 83.5 64 95 C61.7 83.5 59.5 81.3 48 79 C59.5 76.7 61.7 74.5 64 63 Z"/>
+  <path fill="#7C4DFF" opacity="0.8" d="M86 62 C86.7 65.6 87.4 66.3 91 67 C87.4 67.7 86.7 68.4 86 72 C85.3 68.4 84.6 67.7 81 67 C84.6 66.3 85.3 65.6 86 62 Z"/>
+</svg>
